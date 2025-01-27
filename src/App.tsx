@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes, FaInstagram, FaPlay, FaHandHoldingHeart, FaVideo } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from './images/logo.jpg'
+import bgImg from './images/secimg.png'
 
 interface VideoModalProps {
   isOpen: boolean;
@@ -101,7 +103,7 @@ const App: React.FC = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <img src="/images/logo.jpg" alt="Лого" className="w-8 h-8 rounded-full" />
+            <img src={logo} alt="Лого" className="w-8 h-8 rounded-full" />
             <span className="text-xl font-bold text-white">Адам Құқықтары</span>
           </motion.div>
 
@@ -259,7 +261,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="mt-10 text-center">
-          <img src="/images/secimg.png" alt="Команда" className="mx-auto rounded-lg shadow-lg max-w-full" />
+          <img src={bgImg} alt="Команда" className="mx-auto rounded-lg shadow-lg max-w-full" />
         </div>
       </motion.div>
 
