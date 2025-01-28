@@ -191,7 +191,7 @@ const App: React.FC = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Адам еркіндігі және құқықтары
+              Бостандыққа жол
             </motion.h1>
 
             <motion.div 
@@ -215,7 +215,7 @@ const App: React.FC = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <FaPlay />
-                <a href='https://www.un.org/ru/documents/decl_conv/declarations/declhr.shtml'>Көбірек білу</a>
+                <a href='https://www.un.org/ru/documents/decl_conv/declarations/declhr.shtml'>Ақпарат алу</a>
               </motion.button>
             </motion.div>
 
@@ -275,22 +275,19 @@ const App: React.FC = () => {
         viewport={{ once: true }}
       >
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-center mb-6 text-[#c01f48]">Адам Құқықтары Туралы Маңызды Ақпарат</h2>
+          <h2 className="text-2xl font-bold text-center mb-6 text-[#c01f48]">Құлдықтан қашып, еркіндікке қол жеткізген адамдар</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="font-bold text-[#c01f48] mb-4">Негізгі Құқықтар</h3>
+              <h3 className="font-bold text-[#c01f48] mb-4">Фредерик Дуглас </h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Өмір сүруге және қауіпсіздікке құқық</li>
-                <li>Білім алу еркіндігі</li>
-                <li>Дискриминациясыз өмір сүру</li>
+              <p>Фредерик Дуглас Мэриленд штатында құл болған. 1838 жылы ол теңізші киімін киіп, жалған құжаттарды қолдана отырып қашып шықты. Еркіндікке қол жеткізгеннен кейін ол танымал шешен, жазушы және құлдықты жою қозғалысының көшбасшысы болды. Оның өмірбаяны “Фредерик Дугластың өмірі туралы хикая” кітабына арқау болды және құлдыққа қарсы күресте үлкен рөл атқарды.</p>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="font-bold text-[#c01f48] mb-4">Халықаралық Стандарттар</h3>
+              <h3 className="font-bold text-[#c01f48] mb-4">Гарриет Табмен</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Адам құқықтарының жалпыға бірдей декларациясы</li>
-                <li>Азаматтық және саяси құқықтар туралы халықаралық пакт</li>
-                <li>Экономикалық, әлеуметтік және мәдени құқықтар туралы пакт</li>
+              <p>Гарриет Табмен XIX ғасырда АҚШ-та құл болған. Ол 1849 жылы құлдықтан қашып шығып, шамамен 150 шақырым жерді жасырын бағытпен жүріп өткен. Бұл бағыт “Жерасты теміржолы” деп аталған. Гарриет бостандыққа шыққаннан кейін қайтадан оңтүстікке оралып, басқа құлдарды құтқару үшін жұмыс істеді. Ол 70-тен астам адамды құлдықтан босатып, еркіндікке шығарған. Гарриет теңдік пен еркіндік үшін күрестің символына айналды.</p>
+
               </ul>
             </div>
           </div>
@@ -307,15 +304,19 @@ const App: React.FC = () => {
         viewport={{ once: true }}
       >
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-center mb-6 text-[#c01f48]">Жиі Қойылатын Сұрақтар</h2>
+          <h2 className="text-2xl font-bold text-center mb-6 text-[#c01f48]">Жиі қойылатын cұрақтар</h2>
           <div className="space-y-4">
             <div className="p-4 border rounded-lg bg-gray-50">
               <h3 className="font-bold text-[#c01f48]">Адам Құқықтарын Кім Қорғайды?</h3>
               <p className="text-gray-700">Адам құқықтарын халықаралық ұйымдар, үкіметтік емес ұйымдар және заң қызметкерлері қорғайды.</p>
             </div>
             <div className="p-4 border rounded-lg bg-gray-50">
-  <h3 className="font-bold text-[#c01f48]">Құқықтар Бұзылса, Не Істеу Керек?</h3>
-  <p className="text-gray-700">Заңгерге жүгіну, полицияга өтініш жасау немесе адам құқықтары жөніндегі уәкілге хабарласу қажет.</p>
+  <h3 className="font-bold text-[#c01f48]">Адам құқықтары деген не?</h3>
+  <p className="text-gray-700">Әр адамның туылғаннан бастап иеленетін негізгі құқықтары мен бостандықтары. Олар өмір сүру, еркіндік, теңдік, қауіпсіздік, білім алу, пікір білдіру сияқты құқықтарды қамтиды.</p>
+</div>
+<div className="p-4 border rounded-lg bg-gray-50">
+  <h3 className="font-bold text-[#c01f48]">Барлық адам тең құқыққа ие ме?</h3>
+  <p className="text-gray-700">Иә, адам құқықтары нәсіліне, жынысына, дініне, тіліне немесе әлеуметтік мәртебесіне қарамастан, барлық адамға бірдей беріледі.</p>
 </div>
           </div>
         </div>
